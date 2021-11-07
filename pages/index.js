@@ -8,6 +8,7 @@ import {
   MapSVG,
   NerdSVG,
   ShieldSVG,
+  SearchbarSVG,
 } from "../public/svgs/source";
 export default function Home() {
   return (
@@ -76,14 +77,20 @@ export default function Home() {
     //  </footer>
     //</div><
     <div>
-      <div>
-        <h1>You Googled</h1>
-        <div>
-          <svg></svg>
+      <div className={styles.spaceApart}>
+        <h1 className={styles.searchBarTitle}>You Googled</h1>
+        <div className={styles.searchBar}>
+          <p className={styles.searchBarText}>Internet Privacy </p>
+          <SearchbarSVG />
         </div>
       </div>
-      <article>
-        <article>
+
+      {/*<div>
+        
+      </div>*/}
+
+      <div className={styles.mainSection}>
+        <div className={styles.spaceApart}>
           <h2>Introduction</h2>
           <p>
             Today’s internet is a prosperous goldmine for Google. Whether users
@@ -91,9 +98,9 @@ export default function Home() {
             to understand human beh- -aviors. However, is there any information
             that we don&#39at want it to know?
           </p>
-        </article>
+        </div>
 
-        <article>
+        <div>
           <h2>What is Internet Privacy</h2>
           <NerdSVG />
           <p>
@@ -107,11 +114,11 @@ export default function Home() {
             there&#39s no absolute control for individuals to decide what others
             get to see our data or not.
           </p>
-        </article>
+        </div>
 
-        <article>
+        <div className={styles.spaceApart}>
           <h2>How Google Tracks Us</h2>
-          <article>
+          <div>
             <h3>Gmail, Google Office Suite, Google Photo</h3>
             <DocSVG />
             <p>
@@ -119,9 +126,9 @@ export default function Home() {
               scanned with Google Analytic. The tools algorithm will aggregate
               the words from the document to be used with personalized ads.
             </p>
-          </article>
+          </div>
 
-          <article>
+          <div>
             <h3>Google Chrome</h3>
             <CookieSVG />
             <p>
@@ -130,9 +137,9 @@ export default function Home() {
               identify your computer which includes the IP address, log-in info,
               opera- -ting system, screen size, mouse movements, etc.{" "}
             </p>
-          </article>
+          </div>
 
-          <article>
+          <div>
             <h3>Android Phone</h3>
             <MapSVG />
             <p>
@@ -142,10 +149,10 @@ export default function Home() {
               visited. The data is used on GoogleMap to influence our behavior
               by creating suggestions.
             </p>
-          </article>
-        </article>
+          </div>
+        </div>
 
-        <article>
+        <div className={styles.spaceApart}>
           <h2>What Does Google Do with Our Data</h2>
           <p>
             Google&#39s policy ensures that users&#39 data to be not sold to
@@ -165,9 +172,9 @@ export default function Home() {
             data can hold valuable assets for others to pluck from the
             company&#39s network.
           </p>
-        </article>
+        </div>
 
-        <article>
+        <div className={styles.spaceApart}>
           <h2>Digital Security and Your Data</h2>
           <HackerSVG />
           <p>
@@ -190,9 +197,9 @@ export default function Home() {
             for himself and his colleagues to download the database and account
             management tool.
           </p>
-        </article>
+        </div>
 
-        <article>
+        <div>
           <h2>Protecting Ourselves Online</h2>
           <ShieldSVG />
           <p>
@@ -207,8 +214,8 @@ export default function Home() {
             provide. Internet privacy is about controlling what in- -formation
             we want to show rather than show it all.
           </p>
-        </article>
-      </article>
+        </div>
+      </div>
     </div>
   );
 }
