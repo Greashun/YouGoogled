@@ -200,3 +200,25 @@
   position: relative;
   z-index: -1;
 }
+
+.powerSlide {
+  margin-left: -25vh;
+  position: relative;
+  z-index: 1;
+}
+
+.slideText {
+  position: absolute;
+  max-width: 45%;
+  margin: auto;
+  margin-left: 40vh;
+  margin-top: 25vh;
+}
+
+.videoText {
+  position: absolute;
+  margin: auto;
+  max-width: 45%;
+  margin-top: 60vh;
+  margin-left: 4vh;
+}

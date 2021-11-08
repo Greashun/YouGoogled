@@ -118,7 +118,7 @@ export default function Home() {
             Today’s internet is a prosperous goldmine for Google. Whether users
             are browsing websites or watching videos, Google aggregates our data
             to understand human behaviors. However, is there any information
-            that we don&#39at want it to know?
+            that we don&apos;t want it to know?
           </p>
         </div>
 
@@ -130,10 +130,10 @@ export default function Home() {
             activities on a website, sharing how much we share about ourselves,
             etc. It can be our daily sp- -lurges, our recent shopping splurges,
             and the devices we use. Ideally, we want to control the amount of
-            information that flows out. However, this isn&#39t always the case
+            information that flows out. However, this isn&apos;t always the case
             for companies like Google. Once on their platform, they set the
-            terms and conditions on how they use the user&#39s information. So
-            there&#39s no absolute control for individuals to decide what others
+            terms and conditions on how they use the user&apos;s information. So
+            there&apos;s no absolute control for individuals to decide what others
             get to see our data or not.
           </p>*/}
 
@@ -156,13 +156,13 @@ export default function Home() {
           <div>
             <h3>Google Chrome</h3>
             {/*<CookieSVG />*/}
-            <BrowserSVG />
-            <p>
+            <p className={styles.docText}>
               The main way Chrome tracks you is through cookies that contains
               data used to identify our computer. Its a way for the service to
               identify your computer which includes the IP address, log-in info,
-              opera- -ting system, screen size, mouse movements, etc.{" "}
+              operating system, screen size, mouse movements, etc.{" "}
             </p>
+            <BrowserSVG className={styles.document} />
           </div>
 
           <div>
@@ -180,67 +180,57 @@ export default function Home() {
 
         <div className={styles.spaceApart}>
           <h2>What Does Google Do with Our Data</h2>
-          <SlideSVG />
-          <p>
-            Google&#39s policy ensures that users&#39 data to be not sold to
+          <p className={styles.slideText}>
+            Google&apos;s policy ensures that users&apos; data to be not sold to
             third-party vendors. It does, however, use our data for personalized
-            adverts. Advertisers can customize t- heir campaigns to their
-            targeted audience. Once matched, targeted adverts will ap- pear on
-            websites to encourage users to explore their products. Other Google
-            servi- ces benefit from collecting your data. Google internet of
-            things (IoT) devices are dependent on your data to customize your
-            experience. Including recorded audio that Home needs to continue to
-            listen to the user&#39s conversation. /n To Google, their design
-            philosophy is keen to make your experience the best on their
-            platform. And they want you, a consumer, to continue to use their
-            apps for the ind- efinite future. But your privacy still matters as
-            a consumer whose data can still be vulnerable. Blindly accepting
-            terms and conditions can present us with a dangerous situation. Your
-            data can hold valuable assets for others to pluck from the
-            company&#39s network.
+            adverts. Advertisers can customize their campaigns to their targeted
+            audience. Once matched, targeted adverts will appear on websites to
+            encourage users to explore their products. Other Google services
+            benefit from collecting your data. Google internet of things (IoT)
+            devices are dependent on your data to customize your experience.
+            Including recorded audio that Home needs to continue to listen to
+            the user&apos;s conversation. To Google, their design philosophy is
+            keen to make your experience the best on their platform. And they
+            want you, a consumer, to continue to use their apps for the ind
+            efinite future. But your privacy still matters as a consumer whose
+            data can still be vulnerable. Blindly accepting terms and conditions
+            can present us with a dangerous situation. Your data can hold
+            valuable assets for others to pluck from the company&apos;s network.
           </p>
+          <SlideSVG className={styles.powerSlide} />
         </div>
 
         <div className={styles.spaceApart}>
           <h2>Digital Security and Your Data</h2>
-          <HackerSVG />
-          <VideoSVG />
-          <p>
-            Between 2012 - 2017 major breaches were done by hackers. User&#39s
-            data were compromi- -sed where it can be used misused or disclosed
-            without consent. Hackers use differ- -ent types of tactics for
-            installing malicious malware. In 2014, Home Depot suffered a breach
-            when an unauthorized third party got hold of a vendor&#39s password.
-            The files stolen were 56 million email addresses but are susceptible
-            to phishing scams. In addition, the hackers can navigate a portion
-            of the Home Depot network to install customizable malware. The same
-            happened to Target in 2013, where hackers were able to obtain a
-            vendor&#39s key. The hackers installed malware where it can retrieve
-            a user&#39s credit and debit card information. Yahoo also reported a
-            data breach affecting 3 billion users in 2016. The hacker obtained
-            the user&#39s name, email address, phone numbers, date of birth,
-            hashed passwords, and security questions and answers. Aleksey Belan
-            spear- phished emails to Yahoo company employees to gain access to
-            their network. Once clicked on the link, Belan installed a backdoor
-            for himself and his colleagues to download the database and account
-            management tool.
+          <p className={styles.videoText}>
+            Between 2012 - 2017 major breaches were done by hackers. User&apos;s
+            data were compromised where it can be used misused or disclosed
+            without consent. Hackers use different types of tactics for
+            installing malicious malware. In 2013, Target suffered a breach
+            where hackers were able to obtain a vendor&apos;s key. The hackers
+            installed malware where it can retrieve a user&apos;s credit and
+            debit card information. Yahoo also reported a data breach affecting
+            3 billion users in 2016. The hacker obtained the user&apos;s name,
+            email address, phone numbers, date of birth, hashed passwords, and
+            security questions and answers.
           </p>
+          <VideoSVG />
         </div>
 
         <div>
           <h2>Protecting Ourselves Online</h2>
           <ShieldSVG />
           <p>
-            It&#39s important to limit how much information we provide to a big
-            company. The over- -reliance on the platform can come to a point
+            It&apos;s important to limit how much information we provide to a
+            big company. The overreliance on the platform can come to a point
             where an unauthorized actor obtains our data. Google provides a
             dashboard to allow users to customize what data they want to
             opt-out. Another solution is to use other alternative platforms with
-            sim- -ilar services. On the internet, there&#39s no absolute way to
+            similar services. On the internet, there&apos;s no absolute way to
             abstain from using online services. We can, however, protect
-            ourselves by understanding what infor- -mation we are willing to
-            provide. Internet privacy is about controlling what in- -formation
-            we want to show rather than show it all.
+            ourselves by understanding what information we are willing to
+            provide. Internet privacy is about controlling what information we
+            want to show rather than show it all.
           </p>
         </div>
       </div>
