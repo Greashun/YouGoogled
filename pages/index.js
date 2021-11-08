@@ -9,6 +9,11 @@ import {
   NerdSVG,
   ShieldSVG,
   SearchbarSVG,
+  BrowserSVG,
+  PhoneSVG,
+  SlideSVG,
+  SearchResultsSVG,
+  VideoSVG,
 } from "../public/svgs/source";
 export default function Home() {
   return (
@@ -78,7 +83,19 @@ export default function Home() {
     //</div><
     <div>
       <div className={styles.spaceApart}>
-        <h1 className={styles.searchBarTitle}>You Googled</h1>
+        <h1 className={styles.searchBarTitle}>
+          <span className={styles.colorBlue}>Y</span>
+          <span className={styles.colorRed}>o</span>
+          <span className={styles.colorYellow}>u</span>
+          <span> </span>
+          <span className={styles.colorBlue}>G</span>
+          <span className={styles.colorGreen}>o</span>
+          <span className={styles.colorRed}>o</span>
+          <span className={styles.colorYellow}>g</span>
+          <span className={styles.colorBlue}>l</span>
+          <span className={styles.colorRed}>e</span>
+          <span className={styles.colorYellow}>d</span>
+        </h1>
         <div className={styles.searchBar}>
           <p className={styles.searchBarText}>Internet Privacy </p>
           <SearchbarSVG />
@@ -90,20 +107,25 @@ export default function Home() {
       </div>*/}
 
       <div className={styles.mainSection}>
-        <div className={styles.spaceApart}>
+        <div className={styles.searchResultText}>
+          <h2>What is Internet Privacy</h2>
+          <p>
+            The level of privacy an individual has while connected to the
+            internet while sharing private information with others.
+          </p>
           <h2>Introduction</h2>
           <p>
             Today’s internet is a prosperous goldmine for Google. Whether users
             are browsing websites or watching videos, Google aggregates our data
-            to understand human beh- -aviors. However, is there any information
+            to understand human behaviors. However, is there any information
             that we don&#39at want it to know?
           </p>
         </div>
 
-        <div>
-          <h2>What is Internet Privacy</h2>
-          <NerdSVG />
-          <p>
+        <SearchResultsSVG className={styles.searchResult} />
+
+        {/*<NerdSVG />*/}
+        {/*<p>
             Internet privacy takes many forms: it could be privacy regarding our
             activities on a website, sharing how much we share about ourselves,
             etc. It can be our daily sp- -lurges, our recent shopping splurges,
@@ -113,24 +135,28 @@ export default function Home() {
             terms and conditions on how they use the user&#39s information. So
             there&#39s no absolute control for individuals to decide what others
             get to see our data or not.
-          </p>
-        </div>
+          </p>*/}
+
+        {/*<div className={styles.spaceApart}>
+
+          </div>*/}
 
         <div className={styles.spaceApart}>
           <h2>How Google Tracks Us</h2>
           <div>
             <h3>Gmail, Google Office Suite, Google Photo</h3>
-            <DocSVG />
-            <p>
+            <p className={styles.docText}>
               Any documents created on with Gmail or Google Office Suite are
               scanned with Google Analytic. The tools algorithm will aggregate
               the words from the document to be used with personalized ads.
             </p>
+            <DocSVG className={styles.document} />
           </div>
 
           <div>
             <h3>Google Chrome</h3>
-            <CookieSVG />
+            {/*<CookieSVG />*/}
+            <BrowserSVG />
             <p>
               The main way Chrome tracks you is through cookies that contains
               data used to identify our computer. Its a way for the service to
@@ -154,6 +180,7 @@ export default function Home() {
 
         <div className={styles.spaceApart}>
           <h2>What Does Google Do with Our Data</h2>
+          <SlideSVG />
           <p>
             Google&#39s policy ensures that users&#39 data to be not sold to
             third-party vendors. It does, however, use our data for personalized
@@ -177,6 +204,7 @@ export default function Home() {
         <div className={styles.spaceApart}>
           <h2>Digital Security and Your Data</h2>
           <HackerSVG />
+          <VideoSVG />
           <p>
             Between 2012 - 2017 major breaches were done by hackers. User&#39s
             data were compromi- -sed where it can be used misused or disclosed
