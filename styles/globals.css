@@ -10,14 +10,20 @@ body {
   font-family: "Source Code Pro", monospace;
   text-align: left;
   min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.75em;
 }
 
 p {

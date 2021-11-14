@@ -4,7 +4,7 @@ import Map from "./google-map.svg";
 const MapSVG = () => {
   return (
     <div>
-      <Map width={400} height={400} />
+      <Map width={700} height={1200} />
     </div>
   );
 };

@@ -107,6 +107,10 @@ export default function Home() {
       </div>*/}
 
       <div className={styles.mainSection}>
+        <div className={styles.searchResultSite}>
+          <SearchResultsSVG />
+        </div>
+
         <div className={styles.searchResultText}>
           <h2>What is Internet Privacy</h2>
           <p>
@@ -121,8 +125,6 @@ export default function Home() {
             that we don&apos;t want it to know?
           </p>
         </div>
-
-        <SearchResultsSVG className={styles.searchResult} />
 
         {/*<NerdSVG />*/}
         {/*<p>
@@ -142,39 +144,54 @@ export default function Home() {
           </div>*/}
 
         <div className={styles.spaceApart}>
-          <h2>How Google Tracks Us</h2>
           <div>
-            <h3>Gmail, Google Office Suite, Google Photo</h3>
-            <p className={styles.docText}>
-              Any documents created on with Gmail or Google Office Suite are
-              scanned with Google Analytic. The tools algorithm will aggregate
-              the words from the document to be used with personalized ads.
-            </p>
-            <DocSVG className={styles.document} />
+            <h2>How Google Tracks Us</h2>
           </div>
 
           <div>
-            <h3>Google Chrome</h3>
-            {/*<CookieSVG />*/}
-            <p className={styles.docText}>
-              The main way Chrome tracks you is through cookies that contains
-              data used to identify our computer. Its a way for the service to
-              identify your computer which includes the IP address, log-in info,
-              operating system, screen size, mouse movements, etc.{" "}
-            </p>
-            <BrowserSVG className={styles.document} />
+            <div className={styles.docText}>
+              <h3>Gmail, Google Office Suite, Google Photo</h3>
+              <p>
+                Any documents created on with Gmail or Google Office Suite are
+                scanned with Google Analytic. The tools algorithm will aggregate
+                the words from the document to be used with personalized ads.
+              </p>
+            </div>
+            <div className={styles.document}>
+              <DocSVG />
+            </div>
           </div>
 
           <div>
-            <h3>Android Phone</h3>
-            <MapSVG />
-            <p>
-              Location tracking is a common method Google keep track of our
-              movement. The GPS feature on the smartphone provides Google a
-              better understanding on our habits and the location we last
-              visited. The data is used on GoogleMap to influence our behavior
-              by creating suggestions.
-            </p>
+            <div className={styles.docText}>
+              <h3>Google Chrome</h3>
+              {/*<CookieSVG />*/}
+              <p>
+                The main way Chrome tracks you is through cookies that contains
+                data used to identify our computer. Its a way for the service to
+                identify your computer which includes the IP address, log-in
+                info, operating system, screen size, mouse movements, etc.{" "}
+              </p>
+            </div>
+            <div className={styles.document}>
+              <BrowserSVG />
+            </div>
+          </div>
+
+          <div>
+            <div className={styles.docText}>
+              <h3>Android Phone</h3>
+              <p>
+                Location tracking is a common method Google keep track of our
+                movement. The GPS feature on the smartphone provides Google a
+                better understanding on our habits and the location we last
+                visited. The data is used on GoogleMap to influence our behavior
+                by creating suggestions.
+              </p>
+            </div>
+            <div className={styles.document}>
+              <MapSVG />
+            </div>
           </div>
         </div>
 

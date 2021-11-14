@@ -2,11 +2,7 @@ import React from "react";
 import Browser from "./browser.svg";
 
 const BrowserSVG = () => {
-  return (
-    <div>
-      <Browser width={1000} height={1000} />
-    </div>
-  );
+  return <Browser width={700} height={1000} />;
 };
 
 export default BrowserSVG;

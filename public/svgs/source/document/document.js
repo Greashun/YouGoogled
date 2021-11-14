@@ -2,11 +2,7 @@ import React from "react";
 import Doc from "./google-docs.svg";
 
 const DocSVG = () => {
-  return (
-    <div>
-      <Doc width={1000} height={1000} />
-    </div>
-  );
+  return <Doc width={700} height={1000} />;
 };
 
 export default DocSVG;
