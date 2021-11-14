@@ -196,42 +196,48 @@ export default function Home() {
         </div>
 
         <div className={styles.spaceApart}>
-          <h2>What Does Google Do with Our Data</h2>
-          <p className={styles.slideText}>
-            Google&apos;s policy ensures that users&apos; data to be not sold to
-            third-party vendors. It does, however, use our data for personalized
-            adverts. Advertisers can customize their campaigns to their targeted
-            audience. Once matched, targeted adverts will appear on websites to
-            encourage users to explore their products. Other Google services
-            benefit from collecting your data. Google internet of things (IoT)
-            devices are dependent on your data to customize your experience.
-            Including recorded audio that Home needs to continue to listen to
-            the user&apos;s conversation. To Google, their design philosophy is
-            keen to make your experience the best on their platform. And they
-            want you, a consumer, to continue to use their apps for the ind
-            efinite future. But your privacy still matters as a consumer whose
-            data can still be vulnerable. Blindly accepting terms and conditions
-            can present us with a dangerous situation. Your data can hold
-            valuable assets for others to pluck from the company&apos;s network.
-          </p>
-          <SlideSVG className={styles.powerSlide} />
+          <div className={styles.slideText}>
+            <h2>What Does Google Do with Our Data</h2>
+            <ul>
+              <li>
+                {" "}
+                Google&apos;s policy ensures that users&apos; data to be not
+                sold to third-party vendors.{" "}
+              </li>
+              <li>
+                Uses our data for personalized adverts. Advertisers can
+                customize their campaigns to their targeted audience.
+              </li>
+              <li>
+                Dependent on your data to customize your experience to continue
+                using their productt lines.
+              </li>
+            </ul>
+          </div>
+          <div className={styles.powerSlide}>
+            <SlideSVG />
+          </div>
         </div>
 
         <div className={styles.spaceApart}>
-          <h2>Digital Security and Your Data</h2>
-          <p className={styles.videoText}>
-            Between 2012 - 2017 major breaches were done by hackers. User&apos;s
-            data were compromised where it can be used misused or disclosed
-            without consent. Hackers use different types of tactics for
-            installing malicious malware. In 2013, Target suffered a breach
-            where hackers were able to obtain a vendor&apos;s key. The hackers
-            installed malware where it can retrieve a user&apos;s credit and
-            debit card information. Yahoo also reported a data breach affecting
-            3 billion users in 2016. The hacker obtained the user&apos;s name,
-            email address, phone numbers, date of birth, hashed passwords, and
-            security questions and answers.
-          </p>
-          <VideoSVG />
+          <div className={styles.videoText}>
+            <h2>Digital Security and Your Data</h2>
+            <p>
+              Between 2012 - 2017 major breaches were done by hackers.
+              User&apos;s data were compromised where it can be used misused or
+              disclosed without consent. Hackers use different types of tactics
+              for installing malicious malware. In 2013, Target suffered a
+              breach where hackers were able to obtain a vendor&apos;s key. The
+              hackers installed malware where it can retrieve a user&apos;s
+              credit and debit card information. Yahoo also reported a data
+              breach affecting 3 billion users in 2016. The hacker obtained the
+              user&apos;s name, email address, phone numbers, date of birth,
+              hashed passwords, and security questions and answers.
+            </p>
+          </div>
+          <div className={styles.videoTube}>
+            <VideoSVG />
+          </div>
         </div>
 
         <div>
