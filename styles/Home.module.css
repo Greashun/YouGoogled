@@ -123,6 +123,9 @@
 /*.bodyGradient {
 
 }*/
+.topTitle {
+  margin-bottom: 15vh;
+}
 
 .searchBarTitle {
   /*font-size: 10em;*/
@@ -134,19 +137,18 @@
 }
 
 .searchBarText {
-  /*font-size: 4em;
+  font-size: 3em;
   position: relative;
   z-index: 3;
   left: 25vh;
-  top: 24vh;*/
+  top: 24vh;
 }
 
 .searchBar {
-  /*display: block;
-  margin: auto;*/
-  /*margin: auto;
+  display: block;
+  margin: auto;
+  margin: -17vh auto auto -1vh;
   width: 73%;
-  margin-top: -17vh;*/
 }
 
 .mainSection {
@@ -232,6 +234,7 @@
   position: relative;
   z-index: 1;
   margin-top: 49vh;
+  max-width: 800px;
 }
 
 .videoTube {
