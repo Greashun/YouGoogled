@@ -19,4 +19,10 @@ module.exports = {
 
     return config;
   },
+  images: {
+    domains: ["localhost"],
+  },
+  env: {
+    PUBLIC_URL: "/",
+  },
 };
