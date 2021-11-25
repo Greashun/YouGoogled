@@ -41,6 +41,15 @@ section {
 }
 @media (min-width: 375px) and (max-width: 600px) {
   p {
+    font-size: 8px;
+  }
+  h2,
+  h2,
+  h3 {
     font-size: 12px;
+  }
+  ul,
+  li {
+    font-size: 8px;
   }
 }

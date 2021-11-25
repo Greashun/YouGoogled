@@ -294,11 +294,54 @@
   .searchBarTitle {
   }
   .searchResultText {
-    width: 55%;
-    padding: 7rem;
+    width: 59%;
+    padding: 3rem;
     margin-bottom: 25vh;
-    background-image: url("/img/search-result.svg");
+    background-image: url(/img/search-result.svg);
     background-size: contain;
     background-repeat: no-repeat;
+  }
+
+  .searchBarSection {
+    background-image: url(/img/searchbar.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 16vh;
+    padding: 1rem 7rem;
+  }
+
+  .mainSection {
+    width: 59%;
+  }
+
+  .docSection,
+  .browserSection,
+  .mapSection {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40vh;
+    padding: 2rem;
+    margin-bottom: 1.5vw;
+  }
+
+  .slideSection {
+    background-image: url(/img/slide.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 56vh;
+    padding: 4rem;
+    width: 59%;
+  }
+
+  .videoSection {
+    background-image: url(/img/video.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 140px;
+    padding: 9rem;
+    margin-bottom: 14vh;
+    padding-top: 13rem;
+    width: 59%;
   }
 }
