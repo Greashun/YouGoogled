@@ -57,6 +57,7 @@
 }
 
 .searchResultText {
+  width: 60%;
   padding: 9rem;
   margin-bottom: 25vh;
   background-image: url("/img/search-result.svg");
@@ -257,14 +258,15 @@
     font-size: 3em;
   }
   .searchResultText {
-    padding: 6rem;
+    width: 55%;
+    padding: 7rem;
     margin-bottom: 25vh;
     background-image: url("/img/search-result.svg");
     background-size: contain;
     background-repeat: no-repeat;
   }
 }
-@media screen and (min-width: 375px) and (max-width: 600px) {
+@media (min-width: 375px) and (max-width: 600px) {
   .content {
     display: flex;
     flex-direction: column;
@@ -290,5 +292,13 @@
     font-size: 2em;
   }
   .searchBarTitle {
+  }
+  .searchResultText {
+    width: 55%;
+    padding: 7rem;
+    margin-bottom: 25vh;
+    background-image: url("/img/search-result.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
