@@ -1,11 +1,5 @@
 .topTitle {
-  margin-bottom: 15vh;
-  /*background-image: url("/img/main.jpg");
-  background-size: cover;
-}*/
-}
-
-.searchBarTitle {
+  margin-top: 10vh;
 }
 
 .content {
@@ -13,44 +7,21 @@
   flex-direction: column;
   align-items: center;
 }
-/*#bar {
-  background-image: url("../svg/source/searchbar/you-googled-searchbar.svg");
-  background-size: cover;
-}*/
 
 .searchBarText {
+  background-image: url("/img/searchbar.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 14rem;
 }
 
 .searchBarSection {
-  background-image: url("/img/searchbar.svg");
-  /*background-size: cover;*/
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 16vh;
-  padding: 1rem 13rem 1rem;
-}
-
-.searchBar {
-  /*display: block;
-  margin: auto;*/
-  /*margin: -17vh auto auto -1vh;
-  width: 73%;*/
-}
-
-/*.mainSection {
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
-  max-width: 46vw;
-}*/
-/*
-.spaceApart {
-  margin-top: 15vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-}*/
+  background-image: url(/img/main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .searchResultSite {
   position: absolute;
@@ -58,11 +29,16 @@
 
 .searchResultText {
   width: 60%;
-  padding: 9rem;
+  max-width: 560px;
+  padding: 14rem;
+  margin-top: 10vh;
   margin-bottom: 25vh;
   background-image: url("/img/search-result.svg");
   background-size: contain;
   background-repeat: no-repeat;
+  border: 3px grey solid;
+  border-radius: 14px;
+  background-color: white;
 }
 
 .colorBlue {
@@ -85,41 +61,116 @@
   font-size: 5em;
 }
 
+.mainSection,
+.videoSection {
+  background-color: #1d3557;
+}
+
+.privacySection,
+.mainSection,
+.slideSection,
+.videoSection {
+  margin-top: 5vh;
+}
+
+.mainSectionTitle {
+  margin-top: 10vh;
+}
+
 .docSection {
   background-image: url("/img/google-docs.svg");
+  background-position: 50%;
+  background-color: #ebf2ed;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 40vh;
-  padding: 4rem;
-  margin-bottom: 1.5vw;
+  max-width: 380px;
+  height: 62vh;
+  padding: 6rem;
+  margin-bottom: 10vh;
+  border: 15px solid black;
+  border-radius: 61px;
+}
+
+.emailIcon,
+.ramenIcon,
+.cookieOneIcon,
+.cookieTwoIcon,
+.pinIcon,
+.ticketsIcon {
+  /*background-image: url("/img/cookie-1.svg");*/
+  height: 300px;
+  position: absolute;
+}
+
+.emailIcon {
+  position: absolute;
+  z-index: -3;
+  margin-top: -9vh;
+  margin-left: -43vh;
+  transform: rotate(328deg);
+}
+
+.ramenIcon {
+  position: absolute;
+  z-index: 1;
+  margin-top: 33vh;
+  margin-left: 11vh;
+  transform: rotate(17deg);
+}
+
+.cookieOneIcon {
+  z-index: 3;
+  margin-top: -6vh;
+  margin-left: 15vh;
+}
+
+.pinIcon {
+  position: absolute;
+  margin-top: 36vh;
+  margin-left: 13vh;
+  transform: rotate(5deg);
+}
+
+.ticketsIcon {
+  position: absolute;
+  margin-left: -40vh;
+  margin-top: -7vh;
+  transform: rotate(348deg);
+  z-index: -1;
+}
+
+.cookieTwoIcon {
+  z-index: -1;
+  margin-top: 47vh;
+  margin-left: -49vh;
 }
 
 .browserSection {
   background-image: url("/img/browser.svg");
+  background-position: 50%;
+  background-color: #ebf2ed;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 40vh;
-  padding: 4rem;
-  margin-bottom: 1.5vw;
+  max-width: 380px;
+  height: 62vh;
+  padding: 6rem;
+  margin-bottom: 10vh;
+  border: 15px solid black;
+  border-radius: 61px;
 }
 
 .mapSection {
   background-image: url("/img/google-map.svg");
+  background-position: 50%;
+  background-color: #2e3192;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 40vh;
-  padding: 4rem;
-  margin-bottom: 1.5vw;
-}
-
-.docText {
-  /*position: absolute;*/
-  max-width: 280px;
-  /*margin: 7vh 0rem 4vh -9vh;*/
-  padding: 1rem 1rem;
-}
-
-.mapText {
+  max-width: 380px;
+  height: 62vh;
+  padding: 6rem;
+  margin-bottom: 10vh;
+  border: 13px solid black;
+  border-radius: 61px;
 }
 
 .document {
@@ -135,24 +186,22 @@
 }
 
 .slideSection {
-  background-image: url("/img/slide.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 56vh;
-  padding: 8rem;
+  /*height: 24vh;*/
 }
 
 .slideText {
-}
-
-.videoSection {
-  background-image: url(/img/video.svg);
+  background-image: url("/img/slide.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  height: 140px;
-  padding: 16rem;
-  margin-bottom: 14vh;
+  max-width: 600px;
+  padding: 11rem;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.videoSection {
+  margin-top: 15vh;
 }
 
 .videoText {
@@ -163,17 +212,33 @@
 }
 
 .videoTube {
-  position: absolute;
+  background-image: url(/img/video.svg);
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  max-width: 600px;
+  padding: 16rem;
+  border: 3px solid black;
+  border-radius: 15px;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
-.mainImg {
-  background-image: url("/img/main.jpg");
-  background-size: cover;
-  /*vertical-align: top;
-  max-width: 25vw;
-  max-height: 300px;
-  z-index: -2;
-  position: absolute;*/
+.videoSpace {
+  height: 40vh;
+}
+
+.finalSection {
+  padding: 8rem;
+}
+
+.finalSectionText {
+  padding: 15rem;
+  max-width: 600px;
+  background-color: grey;
+  border: 3px solid;
+  border-radius: 28px;
 }
 
 @media screen and (min-width: 600px) and (max-width: 800px) {
@@ -257,13 +322,70 @@
     color: #0f9d58;
     font-size: 3em;
   }
+  .searchBarSection {
+    /*height: 16vh;
+    padding: 1rem 13rem 1rem;*/
+
+    width: 100%;
+  }
   .searchResultText {
     width: 55%;
     padding: 7rem;
     margin-bottom: 25vh;
-    background-image: url("/img/search-result.svg");
+    /*background-image: url("/img/search-result.svg");
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+  }
+
+  .slideText {
+    padding: 6rem;
+  }
+
+  .videoTube {
+    padding: 1rem;
+  }
+
+  .finalSectionText {
+    padding: 2rem;
+  }
+
+  .emailIcon,
+  .ramenIcon,
+  .cookieOneIcon,
+  .cookieTwoIcon,
+  .pinIcon,
+  .ticketsIcon {
+    /*background-image: url("/img/cookie-1.svg");*/
+    height: 210px;
+    position: absolute;
+  }
+
+  .emailIcon {
+    margin-left: -33vh;
+  }
+
+  .ramenIcon {
+    margin-top: 33vh;
+    margin-left: 5vh;
+  }
+
+  .cookieOneIcon {
+    margin-top: -3vh;
+    margin-left: 5vh;
+  }
+
+  .cookieTwoIcon {
+    margin-left: -34vh;
+  }
+
+  .pinIcon {
+    margin-top: 35vh;
+    margin-left: 5vh;
+  }
+
+  .ticketsIcon {
+    margin-top: -3vh;
+    margin-left: -33vh;
   }
 }
 @media (min-width: 375px) and (max-width: 600px) {
@@ -293,55 +415,97 @@
   }
   .searchBarTitle {
   }
+  .searchBarSection {
+    width: 100%;
+    background-image: url(/img/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
   .searchResultText {
     width: 59%;
     padding: 3rem;
     margin-bottom: 25vh;
-    background-image: url(/img/search-result.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
   }
 
-  .searchBarSection {
-    background-image: url(/img/searchbar.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 16vh;
-    padding: 1rem 7rem;
-  }
-
-  .mainSection {
-    width: 59%;
+  .searchBarText {
+    padding: 8rem;
   }
 
   .docSection,
   .browserSection,
   .mapSection {
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 40vh;
+    height: 37vh;
     padding: 2rem;
-    margin-bottom: 1.5vw;
+    margin-bottom: 20.5vw;
+    max-width: 20vh;
   }
 
   .slideSection {
-    background-image: url(/img/slide.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 56vh;
-    padding: 4rem;
-    width: 59%;
+    height: 50vh;
+  }
+
+  .slideText {
+    padding: 3rem;
   }
 
   .videoSection {
-    background-image: url(/img/video.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    height: 140px;
-    padding: 9rem;
-    margin-bottom: 14vh;
-    padding-top: 13rem;
-    width: 59%;
+    height: 68vh;
+    padding: 3rem 9rem 4rem;
+    margin-bottom: 2vh;
+  }
+
+  .videoTube {
+    padding: 4rem;
+  }
+
+  .videoSpace {
+    height: 17vh;
+  }
+
+  .finalSectionText {
+    width: 18vh;
+    padding: 4rem;
+  }
+
+  .emailIcon,
+  .ramenIcon,
+  .cookieOneIcon,
+  .cookieTwoIcon,
+  .pinIcon,
+  .ticketsIcon {
+    /*background-image: url("/img/cookie-1.svg");*/
+    height: 120px;
+    position: absolute;
+  }
+
+  .emailIcon {
+    margin-top: -5vh;
+    margin-left: -21vh;
+  }
+
+  .ramenIcon {
+    margin-top: 33vh;
+    margin-left: 5vh;
+  }
+
+  .cookieOneIcon {
+    margin-top: -3vh;
+    margin-left: 5vh;
+  }
+
+  .cookieTwoIcon {
+    margin-top: 38vh;
+    margin-left: -17vh;
+  }
+
+  .pinIcon {
+    margin-top: 35vh;
+    margin-left: 5vh;
+  }
+
+  .ticketsIcon {
+    margin-top: -3vh;
+    margin-left: -17vh;
   }
 }
