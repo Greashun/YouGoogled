@@ -518,13 +518,13 @@
   }
 
   .emailIcon {
-    margin-top: -5vh;
-    margin-left: -46vh;
+    margin-top: -9vh;
+    margin-left: -58vh;
   }
 
   .ramenIcon {
     margin-top: 33vh;
-    margin-left: 16vh;
+    margin-left: 23vh;
   }
 
   .cookieOneIcon {
@@ -568,7 +568,7 @@
   .docSection,
   .browserSection,
   .mapSection {
-    height: 58h;
+    height: 58vh;
     padding: 3rem;
     margin-bottom: 20.5vw;
     max-width: 300px;
@@ -590,7 +590,7 @@
   }
 
   .videoTube {
-    padding: 5rem;
+    padding: 3rem;
   }
 
   .videoSpace {
@@ -626,12 +626,12 @@
 
   .cookieOneIcon {
     margin-top: -3vh;
-    margin-left: 11vh;
+    margin-left: 19vh;
   }
 
   .cookieTwoIcon {
     margin-top: 38vh;
-    margin-left: -38vh;
+    margin-left: -48vh;
   }
 
   .pinIcon {
@@ -640,8 +640,8 @@
   }
 
   .ticketsIcon {
-    margin-top: -11vh;
-    margin-left: -32vh;
+    margin-top: -17vh;
+    margin-left: -42vh;
   }
 
   .finalSection {
