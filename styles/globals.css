@@ -23,29 +23,7 @@ section {
   z-index: 0;
 }
 
-/*@media (min-width: 600px) and (max-width: 800px) {
-  p {
-    font-size: 16px;
-  }
+a {
+  text-decoration: none;
+  color: red;
 }
-@media (min-width: 375px) and (max-width: 600px) {
-  p {
-    font-size: 8px;
-  }
-  h2,
-  h2,
-  h3 {
-    font-size: 12px;
-  }
-  ul,
-  li {
-    font-size: 8px;
-  }
-}*/
-
-/*@media (min-width: 481) and (max-width: 768) {
-  html,
-  body {
-    font-size: 12px;
-  }
-}*/

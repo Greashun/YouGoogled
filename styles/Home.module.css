@@ -82,8 +82,8 @@
 .cookieOneIcon,
 .cookieTwoIcon,
 .pinIcon,
-.ticketsIcon {
-  /*background-image: url("/img/cookie-1.svg");*/
+.ticketsIcon,
+.virusOne .virusTwo {
   height: 225px;
   position: absolute;
 }
@@ -129,6 +129,15 @@
   z-index: -1;
   margin-top: 47vh;
   margin-left: -49vh;
+}
+
+.virusOne {
+  position: absolute;
+  margin-left: -101vh;
+  margin-top: -22vh;
+  -webkit-transform: rotate(348deg);
+  transform: rotate(348deg);
+  z-index: 1;
 }
 
 .docSection {
@@ -227,6 +236,7 @@
 
 .finalSection {
   padding: 8rem;
+  margin-top: 5vh;
 }
 
 .finalSectionText {
