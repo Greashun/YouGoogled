@@ -147,7 +147,7 @@ export default function Home() {
       <section className={styles.videoSection}>
         <div className={styles.videoTube}>
           <div className={styles.videoSpace}></div>
-          <div>
+          <div className={styles.videText}>
             <h2>Digital Security and Your Data</h2>
             <p>
               Between 2012 - 2017{" "}
