@@ -184,9 +184,6 @@ export default function Home() {
       </section>
 
       <section className={styles.finalSection}>
-        <div>
-          <img src="/img/jellyfishes.svg" className={styles.virusOne} />
-        </div>
         <div className={styles.finalSectionText}>
           <h2>Protecting Ourselves Online</h2>
           <p>
@@ -202,9 +199,6 @@ export default function Home() {
             want to show rather than show it all.
           </p>
         </div>
-        {/*<div>
-          <img src="/img/jellyfish.svg" className={styles.virusTwo} />
-        </div>*/}
       </section>
     </div>
   );
