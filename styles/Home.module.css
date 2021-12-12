@@ -482,7 +482,7 @@
   }
 
   .videoSection {
-    height: 135vh;
+    height: 140vh;
     padding: 3rem 9rem 4rem;
     margin-bottom: 2vh;
   }
@@ -519,7 +519,7 @@
 
   .emailIcon {
     margin-top: -9vh;
-    margin-left: -58vh;
+    margin-left: -51vh;
   }
 
   .ramenIcon {
@@ -529,17 +529,17 @@
 
   .cookieOneIcon {
     margin-top: -3vh;
-    margin-left: 11vh;
+    margin-left: 16vh;
   }
 
   .cookieTwoIcon {
-    margin-top: 38vh;
-    margin-left: -39vh;
+    margin-top: 47vh;
+    margin-left: -43vh;
   }
 
   .pinIcon {
     margin-top: 35vh;
-    margin-left: 5vh;
+    margin-left: 16vh;
   }
 
   .ticketsIcon {
