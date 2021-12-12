@@ -43,22 +43,22 @@
 
 .colorBlue {
   color: #4285f4;
-  font-size: 5em;
+  font-size: 6em;
 }
 
 .colorRed {
   color: #db4437;
-  font-size: 5em;
+  font-size: 6em;
 }
 
 .colorYellow {
   color: #f4b400;
-  font-size: 5em;
+  font-size: 6em;
 }
 
 .colorGreen {
   color: #0f9d58;
-  font-size: 5em;
+  font-size: 6em;
 }
 
 .mainSection,
@@ -92,7 +92,7 @@
   position: absolute;
   z-index: -3;
   margin-top: -9vh;
-  margin-left: -43vh;
+  margin-left: -68vh;
   transform: rotate(328deg);
 }
 
@@ -137,9 +137,9 @@
   background-color: #ebf2ed;
   background-size: contain;
   background-repeat: no-repeat;
-  max-width: 380px;
-  height: 57vh;
-  padding: 6rem;
+  max-width: 300px;
+  height: 55vh;
+  padding: 3rem;
   margin-bottom: 10vh;
   border: 15px solid black;
   border-radius: 61px;
@@ -151,9 +151,9 @@
   background-color: #ebf2ed;
   background-size: contain;
   background-repeat: no-repeat;
-  max-width: 380px;
-  height: 57vh;
-  padding: 6rem;
+  max-width: 300px;
+  height: 55vh;
+  padding: 3rem;
   margin-bottom: 10vh;
   border: 15px solid black;
   border-radius: 61px;
@@ -165,9 +165,9 @@
   background-color: #2e3192;
   background-size: contain;
   background-repeat: no-repeat;
-  max-width: 380px;
-  height: 62vh;
-  padding: 6rem;
+  max-width: 300px;
+  height: 58vh;
+  padding: 3rem;
   margin-bottom: 10vh;
   border: 13px solid black;
   border-radius: 61px;
@@ -183,10 +183,6 @@
 
 .powerSlide {
   position: absolute;
-}
-
-.slideSection {
-  /*height: 24vh;*/
 }
 
 .slideText {
@@ -218,7 +214,7 @@
   background-repeat: no-repeat;
   background-position: 50% 10%;
   max-width: 600px;
-  padding: 16rem;
+  padding: 5rem;
   border: 3px solid black;
   border-radius: 15px;
   margin-top: 10vh;
@@ -226,7 +222,7 @@
 }
 
 .videoSpace {
-  height: 40vh;
+  height: 47vh;
 }
 
 .finalSection {
@@ -250,7 +246,7 @@
   .colorGreen,
   .colorRed,
   .colorYellow {
-    font-size: 1rem;
+    font-size: 3rem;
   }
 
   .searchResultText {
@@ -266,41 +262,42 @@
   .docSection,
   .browserSection,
   .mapSection {
-    height: 28vh;
-    padding: 2rem;
+    height: 36vh;
+    padding: 2.25rem;
     margin-bottom: 20.5vw;
-    max-width: 17vh;
+    max-width: 23vh;
   }
 
   .slideSection {
-    height: 44vh;
+    height: 54vh;
   }
 
   .slideText {
     padding: 2.5rem;
     font-size: 7px;
+    max-width: 235px;
   }
 
   .videoSection {
-    height: 38vh;
+    height: 95vh;
     padding: 3rem 9rem 4rem;
     margin-bottom: 2vh;
   }
 
   .videoTube {
-    padding: 2rem;
+    padding: 0.75rem;
   }
 
   .videoSpace {
-    height: 24vh;
+    height: 28vh;
   }
 
   .videoText {
     max-width: 60vw;
   }
   .finalSectionText {
-    width: 18vh;
-    padding: 3rem;
+    width: 28vh;
+    padding: 2rem;
   }
 
   .emailIcon,
@@ -309,37 +306,37 @@
   .cookieTwoIcon,
   .pinIcon,
   .ticketsIcon {
-    height: 45px;
+    height: 65px;
   }
 
   .emailIcon {
     margin-top: -2vh;
-    margin-left: -14vh;
+    margin-left: -22vh;
   }
 
   .ramenIcon {
-    margin-top: 19vh;
-    margin-left: 9vh;
+    margin-top: 27vh;
+    margin-left: 14vh;
   }
 
   .cookieOneIcon {
     margin-top: -1vh;
-    margin-left: 9vh;
+    margin-left: 11vh;
   }
 
   .cookieTwoIcon {
-    margin-top: 38vh;
-    margin-left: -17vh;
+    margin-top: 43vh;
+    margin-left: -21vh;
   }
 
   .pinIcon {
-    margin-top: 24vh;
-    margin-left: 9vh;
+    margin-top: 29vh;
+    margin-left: 12vh;
   }
 
   .ticketsIcon {
-    margin-top: -3vh;
-    margin-left: -12vh;
+    margin-top: -5vh;
+    margin-left: -18vh;
   }
 }
 
@@ -352,7 +349,7 @@
   .colorGreen,
   .colorRed,
   .colorYellow {
-    font-size: 1rem;
+    font-size: 4rem;
   }
 
   .searchResultText {
@@ -375,11 +372,12 @@
   }
 
   .slideSection {
-    height: 46vh;
+    height: 69vh;
   }
 
   .slideText {
-    padding: 4rem;
+    padding: 7rem;
+    max-width: 315px;
   }
 
   .slideText > h2 {
@@ -387,7 +385,7 @@
   }
 
   .videoSection {
-    height: 85vh;
+    height: 104vh;
     padding: 3rem 9rem 4rem;
     margin-bottom: 2vh;
   }
@@ -398,14 +396,14 @@
   }
 
   .videoSpace {
-    height: 28vh;
+    height: 35vh;
   }
 
   .videoText {
     max-width: 60vw;
   }
   .finalSectionText {
-    width: 28vh;
+    width: 40vh;
     padding: 4rem;
   }
 
@@ -454,7 +452,7 @@
   .colorGreen,
   .colorRed,
   .colorYellow {
-    font-size: 1rem;
+    font-size: 6rem;
   }
 
   .searchResultText {
@@ -468,22 +466,23 @@
   .docSection,
   .browserSection,
   .mapSection {
-    height: 50vh;
-    padding: 5rem;
+    height: 60vh;
+    padding: 3rem;
     margin-bottom: 20.5vw;
-    max-width: 29vh;
+    max-width: 38vh;
   }
 
   .slideSection {
-    height: 65vh;
+    height: 73vh;
   }
 
   .slideText {
     padding: 9rem;
+    max-width: 525px;
   }
 
   .videoSection {
-    height: 105vh;
+    height: 135vh;
     padding: 3rem 9rem 4rem;
     margin-bottom: 2vh;
   }
@@ -493,7 +492,7 @@
   }
 
   .videoSpace {
-    height: 36vh;
+    height: 48vh;
   }
 
   .videoText {
@@ -515,12 +514,12 @@
   .cookieTwoIcon,
   .pinIcon,
   .ticketsIcon {
-    height: 220px;
+    height: 165px;
   }
 
   .emailIcon {
     margin-top: -5vh;
-    margin-left: -43vh;
+    margin-left: -46vh;
   }
 
   .ramenIcon {
@@ -544,8 +543,8 @@
   }
 
   .ticketsIcon {
-    margin-top: -3vh;
-    margin-left: -17vh;
+    margin-top: -14vh;
+    margin-left: -34vh;
   }
 }
 
@@ -569,22 +568,23 @@
   .docSection,
   .browserSection,
   .mapSection {
-    height: 46vh;
-    padding: 6rem;
+    height: 58h;
+    padding: 3rem;
     margin-bottom: 20.5vw;
-    max-width: 26vh;
+    max-width: 300px;
   }
 
   .slideSection {
-    height: 72vh;
+    height: 76vh;
   }
 
   .slideText {
-    padding: 15rem;
+    padding: 16rem;
+    padding-top: 9rem;
   }
 
   .videoSection {
-    height: 110vh;
+    height: 135vh;
     padding: 3rem 9rem 4rem;
     margin-bottom: 2vh;
   }
@@ -594,7 +594,7 @@
   }
 
   .videoSpace {
-    height: 38vh;
+    height: 48vh;
   }
 
   .videoText {
@@ -616,7 +616,7 @@
 
   .emailIcon {
     margin-top: -10vh;
-    margin-left: -43vh;
+    margin-left: -54vh;
   }
 
   .ramenIcon {
