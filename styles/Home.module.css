@@ -262,10 +262,10 @@
   .docSection,
   .browserSection,
   .mapSection {
-    height: 36vh;
+    height: 38vh;
     padding: 2.25rem;
     margin-bottom: 20.5vw;
-    max-width: 23vh;
+    max-width: 25vh;
   }
 
   .slideSection {
@@ -289,14 +289,14 @@
   }
 
   .videoSpace {
-    height: 28vh;
+    height: 34vh;
   }
 
   .videoText {
     max-width: 60vw;
   }
   .finalSectionText {
-    width: 28vh;
+    width: 38vh;
     padding: 2rem;
   }
 
@@ -311,7 +311,7 @@
 
   .emailIcon {
     margin-top: -2vh;
-    margin-left: -22vh;
+    margin-left: -26vh;
   }
 
   .ramenIcon {
@@ -326,7 +326,7 @@
 
   .cookieTwoIcon {
     margin-top: 43vh;
-    margin-left: -21vh;
+    margin-left: -24vh;
   }
 
   .pinIcon {
