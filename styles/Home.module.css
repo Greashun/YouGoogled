@@ -365,14 +365,14 @@
   .docSection,
   .browserSection,
   .mapSection {
-    height: 45vh;
-    padding: 3rem;
+    height: 51vh;
+    padding: 5rem;
     margin-bottom: 20.5vw;
     max-width: 27vh;
   }
 
   .slideSection {
-    height: 69vh;
+    height: 73vh;
   }
 
   .slideText {
@@ -385,13 +385,13 @@
   }
 
   .videoSection {
-    height: 104vh;
+    height: 110vh;
     padding: 3rem 9rem 4rem;
     margin-bottom: 2vh;
   }
 
   .videoTube {
-    padding: 1rem;
+    padding: 2rem;
     max-width: 415px;
   }
 
@@ -417,8 +417,8 @@
   }
 
   .emailIcon {
-    margin-top: -5vh;
-    margin-left: -32vh;
+    margin-top: -7vh;
+    margin-left: -36vh;
   }
 
   .ramenIcon {
@@ -428,22 +428,22 @@
 
   .cookieOneIcon {
     margin-top: -3vh;
-    margin-left: 11vh;
+    margin-left: 15vh;
   }
 
   .cookieTwoIcon {
-    margin-top: 38vh;
-    margin-left: -29vh;
+    margin-top: 49vh;
+    margin-left: -34vh;
   }
 
   .pinIcon {
     margin-top: 33vh;
-    margin-left: 13vh;
+    margin-left: 18vh;
   }
 
   .ticketsIcon {
     margin-top: -8vh;
-    margin-left: -27vh;
+    margin-left: -30vh;
   }
 }
 
