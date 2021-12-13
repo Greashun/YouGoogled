@@ -147,7 +147,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   max-width: 300px;
-  height: 52vh;
+  height: 49vh;
   padding: 5rem;
   margin-bottom: 10vh;
   border: 15px solid black;
@@ -161,7 +161,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   max-width: 300px;
-  height: 52vh;
+  height: 49vh;
   padding: 5rem;
   margin-bottom: 10vh;
   border: 15px solid black;
@@ -175,7 +175,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   max-width: 300px;
-  height: 52vh;
+  height: 49vh;
   padding: 5rem;
   margin-bottom: 10vh;
   border: 13px solid black;
@@ -231,12 +231,13 @@
 }
 
 .videoSpace {
-  height: 54vh;
+  height: 39vh;
 }
 
 .finalSection {
   padding: 8rem;
   margin-top: 5vh;
+  margin-top: 8vh;
 }
 
 .finalSectionText {
