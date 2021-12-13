@@ -1,22 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
+01 Step: Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- In Bash please yarn install for necessary files.
+  - If you don't have yarn install look into the documentation to how to install [https://www.npmjs.com/package/yarn]
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+02 Step: Running Localhost:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- After the installation has been finished please do the follow:
+  - 'npx next build' without quotations to build the project
+  - 'npx next start' without quotations to run the project local host
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+03 Step: Check Localhost:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Learn More
 
